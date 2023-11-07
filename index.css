@@ -1,117 +1,29 @@
 body{
+  background-color: red;
   margin: 0;
   padding: 0;
-  background-color: bisque;
 }
 
-.box{
-  background-color: rgb(61, 57, 57);
-  height: 700px;
-  width: 500px;
-  margin: 200px;
-  border-radius: 20px;
-}
-
-.screen{
+.container{
+  width: 400px;
+  height: 500px;
+  background-color: yellow;
   margin: auto;
-  margin-bottom: 30px;
-  
-  background-color: rgb(168, 179, 168);
+  margin-top: 250px;
+}
+
+.screen {
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  position: relative; /* Agrega esta línea para cambiar la posición */
+  top: 40px; /* En lugar de margin-top, usa top para ajustar la posición vertical */
+   background-color: rgb(168, 179, 168);
   background: rgba(255, 255, 255, 0.3); /* Fondo semi-transparente */
   border: 1px solid #ccc; /* Borde ligero */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
   border-radius: 5px; /* Bordes redondeados */
   color: #333;
-  width: 400px;
-  height: 100px;
 }
 
-
-.numbers{
-  display: grid;
-  grid-template-columns: minmax(100px, 1fr) 100px 100px 100px ;
-  grid-template-rows: 100px 100px 100px 100px 100px;
-  gap: 10px;
-  padding-left: 30px;
-  
-  
-}
-
-/*.key{
-  background: blue;
-  width: 60px;
-  height: 50px;
-  margin: 15px;
-  padding: 5px;
-}*/
-
-
-
-.numbers div:first-child{
-  background: green;
-  
- 
-}
-
-
-.numbers div:nth-child(2){
-  background: red;
-}
-
-.numbers div:nth-child(3){
-  background: yellow;
-}
-.numbers div:nth-child(4){
-  background: orange;
- 
-}
-.numbers div:nth-child(5){
-  background: lightblue;
-}
-.numbers div:nth-child(6){
-  background: violet;
-}
-.numbers div:nth-child(7){
-  background: lavender;
-  
-}
-.numbers div:nth-child(8){
-  background: purple;
-}
-.numbers div:nth-child(9){
-  background: teal;
-}
-.numbers div:nth-child(10){
-  background: palegreen;
-}
-.numbers div:nth-child(11){
-  background: fuchsia;
-}
-.numbers div:nth-child(12){
-  background: rebeccapurple
-}
-.numbers div:nth-child(13){
-  background: darkgrey;
-}
-.numbers div:nth-child(14){
-  background: khaki;
-}
-.numbers div:nth-child(15){
-  background: khaki;
-}
-.numbers div:nth-child(16){
-  background: khaki;
-}
-.numbers div:nth-child(17){
-  background: khaki;
-}
-
-.numbers :hover
-
-
-
-/*section div{
-  background: blue;
-  width: 60px;
-  height: 60px;
-}*/
+//LISTO PANTALLA POSICIONADA Y COLOR Y TAMAÑO.
